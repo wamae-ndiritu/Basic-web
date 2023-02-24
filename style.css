@@ -1,0 +1,140 @@
+/* .main{
+    background-color: aqua;
+}
+.main ul li{
+    list-style: none;
+}
+.main ul {
+    display: flex;
+    float: right;
+    
+}
+.main ul li{
+padding-right: 10px;
+}
+
+.features{
+    background-color: aqua;
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.mobile{
+    width: 100px;
+    height: 100px;
+}
+
+.mobile img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+  */
+
+
+  .main-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .circle-cont{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .img-cont{
+    width: 150px;
+    height: 200px;
+  }
+
+  .img-cont img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .info-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .info-cont i{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+  }
+
+  .info-cont p{
+    font-size: 14px;
+    margin-top: 3px;
+  }
+
+  .info-1{
+    position: absolute;
+    top: 10px;
+  }
+
+  .info-2{
+    position: absolute;
+    right: 10px;
+  }
+
+  .info-3{
+    position: absolute;
+    bottom: 10px;
+  }
+
+  .info-4{
+    position: absolute;
+    left: 10px;
+  }
+
+  .control-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .control-btn .btn{
+    width: 30px;
+    height: 20px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .control-btn p{
+    margin: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+
